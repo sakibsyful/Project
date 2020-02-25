@@ -1,0 +1,141 @@
+ *{
+     margin : 0;
+     padding: 0;
+     font-family: Century Gothic;
+ }
+ header{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(two.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+ }
+
+ ul{
+     float: right;
+     list-style-type: none;
+     margin-top: 25;
+ }
+ ul li{
+     display: inline-block;
+ }
+ ul li a{ 
+     text-decoration: none;
+     color: #fff;
+     padding: 5px 20px;
+     border: 1px solid #fff; 
+     transition: 0.6s ease;
+ }
+ ul li a:hover{
+     background-color: #fff;
+     color: #000;
+ }
+ ul li.active a{
+    background-color: #fff;
+     color: #000;
+ }
+ .logo img{
+     float: left;
+     width: 150px;
+     height: auto;
+ }
+ .main{ 
+     max-width: 1200px;
+     margin: auto;
+ }
+ .title{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ }
+ .title h1{
+     color: #fff;
+     font-size: 70px;
+ }
+ .button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ .btn{
+     border: 1px solid #fff;
+     padding: 10px 30px;
+     color: #fff;
+     text-decoration: none;
+     transition: 0.6s ease;
+ }
+ .btn:hover{
+    background-color: #fff;
+    color: #000;
+ }
+
+
+      /*Appoinment Page*/
+
+ *{
+     margin: 0;
+     padding:0;
+     font-family: Arial;
+ } 
+ body{
+     background-image: url(one.jpg);
+     background-size: cover;
+ } 
+ .container{
+     width: 44%;
+     height: 44%;
+     background: #fff;
+     transform: translate(-50%,-50%);
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     box-shadow: 5px 3px 15px 4px;
+ }
+ h2{
+     position: absolute;
+     left: 38%;
+     top: 2%;   
+ }
+ #email{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 24%;
+    width: 83%;
+    height: 17%;
+    padding-left: 7px;
+    font-size: 17px;
+ }
+ #password{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 83%;
+    height: 17%;
+    padding-left: 7px;
+    font-size: 17px;
+ }
+ 
+button{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 77%;
+    width: 85%;
+    height: 20%;
+    background-color: #16A085;
+    font-size: 17px;
+    font-weight: normal;
+    color: #fff;
+    border:none;
+    transition: 1s all;
+}
+button:hover{
+    background: aqua;
+    cursor: pointer;
+}
+  
+
+
